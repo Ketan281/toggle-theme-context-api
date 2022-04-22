@@ -1,0 +1,26 @@
+.firstDiv{
+    width: fit-content;
+    display: grid;
+    padding: 20px;
+    row-gap: 30px;
+}
+.mainDiv{
+  display: grid;
+  row-gap: 220px;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mainDiv1{
+  display: grid;
+  row-gap: 220px;
+  width: fit-content;
+  box-shadow: rgba(162, 219, 215, 0.35) 0px 5px 15px;
+  background-color:black;
+}
+.icon:hover{
+background-color: aqua ;
+}
+.user{
+    width: fit-content;
+    padding: 20px;
+}

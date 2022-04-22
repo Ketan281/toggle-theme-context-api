@@ -1,0 +1,43 @@
+.firstDiv {
+    display: flex;
+
+    height: fit-content;
+    column-gap: 280px;
+  }
+  .secondDiv {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  }
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    text-align: center;
+
+  }
+  
+  .secondDiv1 {
+    box-shadow: rgba(162, 219, 215, 0.35) 0px 5px 15px;
+  
+    background-color: black;
+  }
+  .user1 {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    border-bottom: 1px solid grey;
+  }
+  img {
+    width: 80px;
+    height: 80px;
+
+  }
+  
+  @media only screen and (max-width: 756px) {
+    .firstDiv {
+      display: flex;
+
+      height: fit-content;
+      column-gap: 50px;
+    }
+  }
